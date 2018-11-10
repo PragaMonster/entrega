@@ -1,0 +1,79 @@
+#contato {
+    background-color: #f8f8f8c2;
+    padding-top: 200px;
+    padding-bottom: 80px;
+}
+
+.divisao {
+    font-weight: lighter;
+    margin-bottom: 12px;
+}
+
+.esquerdo {
+    width: 48%;
+    margin-right: 2%;
+    margin-left: 66px;
+}
+
+.icones {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.negrito {
+    font-weight: 600;
+}
+
+.direita {
+    display: block;
+    width: 48%;
+    margin-left: 2%;
+}
+
+
+/* MAPA */
+
+.mapa {
+    padding: 10px;
+    margin-left: 50px;
+}
+
+
+/* Formulário */
+
+h3 {
+    margin-left: 66px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    width: 317px;
+    margin-bottom: 80px;
+    margin-left: 66px;
+}
+
+input[type=text],
+input[type=email],
+select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 90%;
+}
+
+#area-texto {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 292px;
+    height: 66px;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Yuri">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <title>Cozinharia- Projeto</title>
+
+
+
+    </head>
+
+    <style>
+        .menuhover {
+            background-color: white;
+        }
+        
+        .menuhover a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            padding: 15px;
+            display: inline-block;
+        }
+        
+        ul {
+            display: inline;
+            margin: 0;
+            padding: 0;
+        }
+        
+        ul li {
+            display: inline-block;
+        }
+        
+        ul li:hover {
+            color: gray;
+        }
+        
+        ul li:hover ul {
+            display: block;
+        }
+        
+        ul li ul {
+            position: absolute;
+            width: 200px;
+            display: none;
+        }
+        
+        ul li ul li {
+            background: white;
+            display: block;
+        }
+        
+        ul li ul li a {
+            display: block !important;
+        }
+        
+        ul li ul li:hover {
+            color: gray;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <header>
+        <img src="img/logo-cozinharia.svg" alt="logo da cozinharia">
+    </header>
+
+    <div class="menuhover">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="a-cozinharia.html">A Cozinharia</a></li>
+            <li><a href="cardapio.html">Cardápio</a></li>
+        </ul>
+        <ul>
+            <li>
+                <a href="#">Eventos</a>
+                <ul>
+                    <li><a href="file:///home/komuta/Documentos/Progra%7BM%7Daria/cozinharia/casamentos.html">Casamentos</a></li>
+                    <li><a href="file:///home/komuta/Documentos/Progra%7BM%7Daria/cozinharia/empresariais.html">Empresariais</a></li>
+
+                </ul>
+            </li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Yuri">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>Cozinharia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/cozinharia.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+
+</head>
+
+<body>
+    <header>
+        <img src="img/logo-cozinharia.svg" alt="logo da cozinharia">
+    </header>
+
+    <nav>
+        <!-- MENU -->
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="a-cozinharia.html">A Cozinharia</a></li>
+            <li><a href="cardapio.html">Cardápio</a></li>
+            <li><a href="#">Eventos</a></li>
+
+            <!-- SUBMENU -->
+            <ul class="submenu">
+                <li><a href="casamentos.html">Casamentos</a>
+                    <li><a href="empresariais.html">Empresariais</a>
+            </ul>
+            </li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="cozinharia">
+        <div class="conteudo">
+
+            <div class=" divisaocozinharia">
+
+                <div class="cozinhariaesquerda">
+                    <h2>A Cozinharia</h2>
+
+                    <div class="tracoamarelo"> </div>
+
+                    <h3>Ambiente tranquilo, música ao vivo</h3>
+                    <p>
+                        A cozinharia conta com um ambiente amigável, repleto de muitas árvores nativas e música brasileira ao vivo cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
+                    </p>
+
+                    <h3>Horários músicais:</h3>
+                    <p>
+                        <p>Terça a quinta-feira - das 18h às 22h</p>
+                        <p>Sexta e sábado - das 11h às 02h </p>
+                        <p>Domingo - das 11h às 22h</p>
+                    </p>
+
+
+                    <h3>Playground para a criançada </h3>
+                    <p>
+                        Temos parquinho rodeado de árvores para que as crianças se divirtam em contato com a natureza!! Sed posuere consectetur est at lobortis. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis. Maecenas faucibus
+                        mollis interdum. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum. Nulla vitae elit libero, a pharetra augue.
+                    </p>
+
+                    <h3>Horta orgânica</h3>
+                    <p>Todos os pratos são feitos com legumes e vegetais produzidos em nossa horta orgânica! Sed posuere consectetur est at lobortis. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis. Maecenas
+                        faucibus mollis. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                    </p>
+                </div>
+
+                <div class="cozinhariadireita">
+                    <img src="img/a-cozinharia-1.jpg" alt="pessoas no restaurante">
+                    <img src="img/a-cozinharia-2.jpg" alt="mãos colhendo tomates">
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria">
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <img src="img/legumes flambados.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="img/macarrao com polvo.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="img/pudim frutas vermelhas.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="img/martini moolight.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="img/risoto de cenoura.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="img/frutas com grao.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+                </div>
+
+
+                <!-- The Modal/Lightbox -->
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+
+                        <div class="mySlides">
+                            <div class="numbertext">1 / 6</div>
+                            <img src="img/legumes flambados.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">2 / 6</div>
+                            <img src="img/macarrao com polvo.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">3 / 6</div>
+                            <img src="img/pudim frutas vermelhas.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">4 / 6</div>
+                            <img src="img/martini moolight.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">5 / 6</div>
+                            <img src="img/risoto de cenoura.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">6 / 6</div>
+                            <img src="img/frutas com grao.jpg" style="width:100%">
+                        </div>
+
+                        <!-- Next/previous controls -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                        <!-- Caption text -->
+                        <div class="caption-container">
+                            <p id="caption"></p>
+                        </div>
+
+                        <!-- Thumbnail image controls -->
+                        <div class="column">
+                            <img class="demo" src="img/legumes flambados.jpg" onclick="currentSlide(1)" alt="Legumes flambados">
+                        </div>
+
+                        <div class="column">
+                            <img class="demo" src="img/macarrao com polvo.jpg" onclick="currentSlide(2)" alt="Macarrão Com Polvo">
+                        </div>
+
+                        <div class="column">
+                            <img class="demo" src="img/pudim frutas vermelhas.jpg" onclick="currentSlide(3)" alt="Pudim de Frutas Vermelhas">
+                        </div>
+
+                        <div class="column">
+                            <img class="demo" src="img/martini moolight.jpg" onclick="currentSlide(4)" alt="Martini Moonlight">
+                        </div>
+
+                        <div class="column">
+                            <img class="demo" src="img/risoto de cenoura.jpg" onclick="currentSlide(5)" alt="Risoto de cenoura">
+                        </div>
+
+                        <div class="column">
+                            <img class="demo" src="img/frutas com grao.jpg" onclick="currentSlide(6)" alt="Frutas com Grão">
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- rodapé -->
+    <footer id="rodape">
+        <div class="container">
+
+            <div class="endereco">
+                <p>
+                    <div class="negrito">A Cozinharia</div>
+                </p>
+                <p>Rua Frei Caneca, 920 - Consolação</p>
+                <p>Tel: 11 4443 0324</p>
+                <p>e-mail: contato@acozinharia.com.br</p>
+
+            </div>
+
+            <div class="funcionamento">
+                <p>
+                    <div class="negrito">Horário de funcionamento:</div>
+                </p>
+
+                <p> Segunda a Quarta das 12h às 15h / 19h30 às 23h </p>
+                <p> Quinta e Sexta das 12h às 15h / 19h30 às 00h </p>
+                <p> Sábado das 12h às 00h - direto </p>
+                <p> Domingo das 12h às 17h </p>
+            </div>
+
+            <div class="socialmedia">
+                <a href="#" target="_blank"><img src="img/facebook-01.png" alt="logo Facebook"></a>
+                <a href="#" target="_blank"><img src="img/twitter-01.png" alt="logo Twitter"></a>
+                <a href="#" target="_blank"><img src="img/linkedin-01.png" alt="logo Linkedin"></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/mainindex.js"></script>
+</body>
+
+</html>

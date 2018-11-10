@@ -1,0 +1,165 @@
+    body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: #ffffff;
+        color: #141F45;
+        line-height: 1.5;
+        font-weight: 300;
+    }
+    /*removerá o sublinhado dos link*/
+    
+    a {
+        text-decoration: none;
+    }
+    /*removerá o circle das lista*/
+    
+    ol,
+    ul {
+        list-style: none;
+    }
+    /*-----HEADER-----*/
+    
+    header {
+        height: 97px;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+    
+    header img {
+        padding: 20px 0 0 65px;
+    }
+    
+    nav {
+        margin-left: 800px;
+        color: #141F45;
+        text-decoration: none;
+        position: relative;
+        z-index: 1;
+    }
+    /* MENU */
+    
+    .menu {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    /* para ocultar*/
+    /*
+    .submenu {
+        display: none;
+    }/*
+    /* TENTATIVA DO MENU
+    span:hover+h1 {
+        display: block;
+    }*/
+    /*foto de arroz e camarão*/
+    
+    #primeirasecao {
+        background: url('../img/home.jpg') no-repeat center center;
+        height: 480px;
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    .primeiroconteudo {
+        padding: 100px 0 0 55px;
+    }
+    
+    .botaocontato,
+    .botaocardapio {
+        display: inline-block;
+        text-align: center;
+        text-transform: uppercase;
+        border: 2px solid #141F45;
+        text-decoration: none;
+        width: 130px;
+        height: 25px;
+        padding: 15px;
+        font-size: 15px;
+        margin-right: 10px;
+        color: #141F45;
+    }
+    
+    h1 {
+        font-size: 40px;
+    }
+    
+    h2 {
+        color: #141F45;
+        font-size: 36px;
+    }
+    
+    .tracoamarelo {
+        border-bottom: 3px solid #EED33E;
+        width: 150px;
+    }
+    
+    .divisao {
+        /* este servirá para as divisões da DIVs */
+        align-items: center;
+        margin: 104px auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    .botao-amarelo,
+    .botaocasamento,
+    .botaoempresariais {
+        display: inline-block;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        width: 200px;
+        height: 25px;
+        padding: 15px;
+        font-size: 15px;
+        margin-right: 10px;
+        color: rgb(0, 0, 7);
+        background-color: yellow;
+    }
+    
+    .conteudoeventos {
+        margin-top: 30px;
+    }
+    /* rodapé */
+    
+    footer {
+        background: #F0DB48;
+        align-items: center;
+    }
+    
+    .container {
+        align-content: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-top: 0;
+    }
+    
+    .endereco {
+        width: 48%;
+        margin-right: 2%;
+        margin-left: 65px;
+    }
+    
+    .socialmedia {
+        width: 30%;
+        margin-left: 2%;
+        align-items: baseline;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .socialmedia img {
+        width: 60%;
+    }
+    
+    .funcionamento {
+        width: 48%;
+        margin-right: 2%;
+    }
